@@ -6,7 +6,7 @@ Here is a working version. I've also added two commented out lines, which you ca
 require 'vendor/autoload.php';
 $mail = new PHPMailer(true);
 $mail->isSMTP();
-$mail->Port       = 587;
+$mail->Port       = ;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth   = true;
 //$mail->Username = '';
